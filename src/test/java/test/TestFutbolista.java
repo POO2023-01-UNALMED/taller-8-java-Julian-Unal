@@ -35,7 +35,7 @@ public class TestFutbolista {
 				&& f.getPosicion().equals("Delantero")) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema con el constructor de la clase Futbolista");
+		assertTrue(ok, "Hay un problema con el constructor de la clase futbol.Futbolista");
     }
 	
 	@Test
@@ -59,7 +59,7 @@ public class TestFutbolista {
 				&& f.getPosicion().equals("delantero")) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema con el constructor de la clase Futbolista");
+		assertTrue(ok, "Hay un problema con el constructor de la clase futbol.Futbolista");
     }
 	
 	@Test
@@ -83,7 +83,7 @@ public class TestFutbolista {
 		if (f.toString().equals(comp)) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema en el metodo toString de la clase Futbolista");
+		assertTrue(ok, "Hay un problema en el metodo toString de la clase futbol.Futbolista");
     }
 	
 	@Test
@@ -122,7 +122,7 @@ public class TestFutbolista {
 		if (!f1.equals(f2) && f1.equals(f3)) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema en el metodo equals de la clase Futbolista");
+		assertTrue(ok, "Hay un problema en el metodo equals de la clase futbol.Futbolista");
     }
 	
 	@Test
@@ -145,6 +145,6 @@ public class TestFutbolista {
 		if (f.jugarConLasManos()) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema en el metodo jugarConLasManos de la clase Futbolista");
+		assertTrue(ok, "Hay un problema en el metodo jugarConLasManos de la clase futbol.Futbolista");
     }
 }
